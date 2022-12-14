@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    padding: 0px;
+    height: 100px;
+    background-color: rgba(216, 205, 237, 0.871);
+}
+
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 6%;
+    margin-right: 6%;
+    height: 500px;
+    flex-direction: row;
+    background-color: rgb(246, 246, 250);
+}
+
+
+h1{
+    color: rgb(10, 10, 10);
+    font-size: 40px;
+    text-align: justify;
+    height: 70px;
+}
+
+p{
+    
+    font-size: 25px;
+}
+
+.conteudo{
+    width: 40%;
+    height: 100%;
+    padding-left: 100px;
+    justify-content: space-between;
+}
+
+input{
+    background-color:rgba(105, 82, 196, 0.95);
+    border: 10px solid rgba(66, 51, 129, 0.95);
+    border-radius: 8%;
+    color: rgb(249, 247, 247);
+    text-decoration: none;
+    font-size: 55px;
+    cursor: pointer;
+    margin: 40px;
+    
+}
+
+.foto2{ 
+    width: 50%;
+    height: 100%;
+    padding-left: 10px;
+
+}
+
+
+.imagem{
+    padding-left: 100px;
+}
+
+.foto3{
+    position: relative;
+    left: 600px;
+    bottom: 560px;
+}
+
+.foto3:hover{
+    transition: .3s;
+    opacity: 0;
+}
